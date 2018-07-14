@@ -1,0 +1,91 @@
+#top{
+	background: #556270;
+	/*width: 100%;*/
+	margin: 15px auto;
+	display: block;
+}
+
+#top a {
+	color: #ffffff;
+}
+
+#top a:hover {
+	color: #8794a2;
+}
+
+#badget{display: block; color: #000000}
+
+@media only screen and (min-width: 992px)
+{
+	#top{
+		margin: 15px auto;
+		background: #ffffff;
+		display: block;
+	}
+	#top a {
+		color: #5a7ace;
+	}
+	#bgrel{position:relative}
+	#badget{position:absolute;top:110px;left:70px;color: #ffffff}
+}
+
+
+/* For display images and body background */
+img,image{
+	width: 100%
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.img-circle {
+		width: 30%;
+	    border-radius: 50%;
+	}
+
+}
+	
+#body{
+	background:#EFEFEF;
+	padding:15px 0 20px;
+}
+
+#footer{
+	background:#F7F7F7;
+	padding:15px 0 30px;
+}
+
+/* fixed footer */
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+.flex-center{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+
+
+
+
